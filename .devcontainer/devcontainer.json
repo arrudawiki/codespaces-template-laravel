@@ -1,0 +1,18 @@
+{
+  "name": "Laravel Dev Container",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/codespaces-template-laravel-priv",
+  "remoteUser": "vscode",
+  "forwardPorts": [8000],
+  "postCreateCommand": ".devcontainer/post-create.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "onecentlin.laravel-blade",
+        "onecentlin.laravel5-snippets",
+        "bmewburn.vscode-intelephense-client"
+      ]
+    }
+  }
+}
